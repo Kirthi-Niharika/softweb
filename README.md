@@ -49,7 +49,6 @@ Publish the website in the given URL.
         background-color: rgb(177, 177, 177);
         padding: 20px 10px;
         }
-
         header a {
         float: left;
         color: black;
@@ -61,36 +60,29 @@ Publish the website in the given URL.
         line-height: 25px;
         border-radius: 4px;
         }
-
         header a.logo {
         font-size: 25px;
         font-weight: bold;
         }
-
         header a:hover {
         background-color: #ddd;
         color: black;
         }
-
         header a.active {
         background-color: rgb(8, 47, 87);
         color: white;
         }
-
         .header-right {
         float: right;
         padding-top: 30px;
         }
-
         .cname{
             padding-top: 20px;
             color: black;
             font-size: xx-large;
             font: 2rem 'AmstelvarAlpha', sans-serif;
             font-style: oblique 23deg;
-    
-        }
-
+            }
         @media screen and (max-width: 500px) {
             header a {
                 float: none;
@@ -98,7 +90,6 @@ Publish the website in the given URL.
                 text-align: left;
             }
         }
-
         #content{
             background: rgba(103, 103, 108, 0.5);
             background-image: url(gif1.gif);
@@ -116,7 +107,6 @@ Publish the website in the given URL.
             font-style: italic;
             background-color: rgb(31, 31, 44);
         }
-
         .im1 img{
             padding: 20px;
             height: 200px;
@@ -133,7 +123,6 @@ Publish the website in the given URL.
             top: 580px;
             left: 400px;
         }
-
         .im3  img{
             padding: 20px;
             height: 200px;
@@ -173,15 +162,12 @@ Publish the website in the given URL.
                     <img src="im3.png" alt="image3">
                 </div>
             </div>
-
         </div>
     </div>
-        
-    </section>
+           </section>
 </body>
 </html>
 ```
-
 ### product.html
 ```html
 <!DOCTYPE html>
@@ -194,7 +180,6 @@ Publish the website in the given URL.
         *{
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-
         .logo img{
             height: 100px;
             width: 100px;
@@ -204,7 +189,6 @@ Publish the website in the given URL.
         background-color:rgb(177, 177, 177);
         padding: 20px 10px;
         }
-
         header a {
         float: left;
         color: black;
@@ -215,31 +199,25 @@ Publish the website in the given URL.
         line-height: 25px;
         border-radius: 4px;
         }
-
         header a.logo {
         font-size: 25px;
         font-weight: bold;
         }
-
         header a:hover {
         background-color: #ddd;
         color: black;
         }
-
         header a.active {
         background-color: rgb(8, 47, 87);
         color: white;
         }
-
         .header-right {
         float: right;
         padding-top: 30px;
         }
-
         .cname{
             padding-top: 20px;
         }
-
         @media screen and (max-width: 500px) {
             header a {
                 float: none;
@@ -247,22 +225,19 @@ Publish the website in the given URL.
                 text-align: left;
             }
         }
-
         #content{
             background-color: white;
             height: 1500px;        
             overflow: hidden;
             line-height: 30px;
         }
-        
-        .prod1 img{
+           .prod1 img{
             padding: 10px;
             height: 250px;
             width: 200px;
             position:absolute;
             top: 280px;
         }
-
         .prod2 img{
             padding: 10px;
             height: 200px;
@@ -271,7 +246,6 @@ Publish the website in the given URL.
             top: 280px;
             left: 970px;
         }
-
         .prod3 img{
             padding: 10px;
             height: 200px;
@@ -280,7 +254,6 @@ Publish the website in the given URL.
             top: 280px;
             left: 400px;
         }
-
         .prod4 img{
             padding: 10px;
             height: 200px;
@@ -288,7 +261,6 @@ Publish the website in the given URL.
             position:absolute;
             top: 740px;
         }
-
         .prod5 img{
             padding: 10px;
             height: 200px;
@@ -297,7 +269,6 @@ Publish the website in the given URL.
             top: 740px;
             left: 450px;
         }
-
         .prod6 img{
             padding: 10px;
             height: 200px;
@@ -306,7 +277,6 @@ Publish the website in the given URL.
             top: 740px;
             left: 900px;
         }
-
         .prod7 img{
             padding: 10px;
             height: 200px;
@@ -314,7 +284,6 @@ Publish the website in the given URL.
             position:absolute;
             top: 1140px;
         }
-
         .prod8 img{
             padding: 10px;
             height: 200px;
@@ -323,7 +292,6 @@ Publish the website in the given URL.
             top: 1140px;
             left: 970px;
         }
-
         .prod9 img{
             padding: 10px;
             height: 200px;
@@ -332,12 +300,6 @@ Publish the website in the given URL.
             top: 1140px;
             left: 450px;
         }
-
-
-        footer{
-            font-size: 20px;
-        }
-
     </style>
 </head>
 <body>
@@ -351,10 +313,8 @@ Publish the website in the given URL.
             <a href="contact.html">Contact</a>
           </div>
     </header>
-
     <section id="content">
-        
-        <div class="prod1">
+      <div class="prod1">
             <img src="norton.png" alt="prod3">
         </div>
         <div class="prod2">
@@ -385,7 +345,6 @@ Publish the website in the given URL.
 </body>
 </html>
 ```
-
 ### people.html
 ```html
 <!DOCTYPE html>
@@ -398,7 +357,6 @@ Publish the website in the given URL.
         *{
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-
         .logo img{
             height: 100px;
             width: 130px;
@@ -408,7 +366,6 @@ Publish the website in the given URL.
         background-color: rgb(177, 177, 177);
         padding: 20px 10px;
         }
-
         header a {
         float: left;
         color: black;
@@ -419,31 +376,25 @@ Publish the website in the given URL.
         line-height: 25px;
         border-radius: 4px;
         }
-
         header a.logo {
         font-size: 25px;
         font-weight: bold;
         }
-
-        header a:hover {
+       header a:hover {
         background-color: #ddd;
         color: black;
         }
-
         header a.active {
         background-color: rgb(8, 47, 87);
         color: white;
         }
-
         .header-right {
         float: right;
         padding-top: 30px;
         }
-
         .cname{
             padding-top: 20px;
         }
-
         @media screen and (max-width: 500px) {
             header a {
                 float: none;
@@ -451,7 +402,6 @@ Publish the website in the given URL.
                 text-align: left;
             }
         }
-
         #content{
             background-color: white;
             overflow: hidden;
@@ -460,7 +410,6 @@ Publish the website in the given URL.
         .person {
             text-align: center;
         }
-
         p{
             font-size: 20px;
         }
@@ -471,29 +420,21 @@ Publish the website in the given URL.
             height: 340px;
             padding-top: 40px;
         }
-
         .person p.name {
             font-weight: bold;
             margin-top: 10px;
             color:black;
         }
-
         .person p.desig {
             font-weight: bold;
             margin-top: 10px;
             color:rgb(47, 20, 220);
         }
-
         .title{
             text-align: center;
             font-size: 30px;
             color:rgb(0, 30, 128)  ;
         }
-        
-        footer{
-            font-size: 20px;
-        }
-
     </style>
 </head>
 <body>
@@ -507,7 +448,6 @@ Publish the website in the given URL.
             <a href="contact.html">Contact</a>
           </div>
     </header>
-
     <section id="content">
         <div class="title">
             <h3>OUR REPRESENTATIVES</h3>
@@ -548,7 +488,6 @@ Publish the website in the given URL.
 </body>
 </html>
 ```
-
 ### contact.html
 ```html
 <!DOCTYPE html>
@@ -561,7 +500,6 @@ Publish the website in the given URL.
         *{
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-
         .logo img{
             height: 100px;
             width: 100px;
@@ -571,7 +509,6 @@ Publish the website in the given URL.
         background-color: rgb(177, 177, 177);
         padding: 20px 10px;
         }
-
         header a {
         float: left;
         color: black;
@@ -582,31 +519,25 @@ Publish the website in the given URL.
         line-height: 25px;
         border-radius: 4px;
         }
-
         header a.logo {
         font-size: 25px;
         font-weight: bold;
         }
-
         header a:hover {
         background-color: #ddd;
         color: black;
         }
-
         header a.active {
             background-color: rgb(8, 47, 87);
         color: white;
         }
-
         .header-right {
         float: right;
         padding-top: 30px;
         }
-
         .cname{
             padding-top: 20px;
         }
-
         @media screen and (max-width: 500px) {
             header a {
                 float: none;
@@ -614,42 +545,35 @@ Publish the website in the given URL.
                 text-align: left;
             }
         }
-
         #content{
             background-color: white;
             overflow: hidden;
             line-height:normal;
-        }
-        
+        }   
         .contact-container {
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 50px;
         }
-
         .contact-image {
             flex: 1;
             text-align: center;
         }
-
         .contact-image img {
             max-width: 100%;
             height: auto;
         }
-
         .contact-details {
             flex: 1;
             padding: 50px;
             font-size: 25px;
         }
-
         .title{
             text-align: center;
             font-size: 30px;
             color:rgb(6, 0, 128);
         }
-
     </style>
 </head>
 <body>
@@ -663,13 +587,11 @@ Publish the website in the given URL.
             <a class="active" href="contact.html">Contact</a>
           </div>
     </header>
-
     <section id="content">
         <div class="title">
             <h3>CONTACT US</h3>
         </div>
-        <div class="contact-container">
-            
+        <div class="contact-container">           
             <div class="contact-image">
                 <img src="company.png">
             </div>
@@ -680,7 +602,6 @@ Publish the website in the given URL.
             </div>
         </div>
     </section>
-
 </body>
 </html>
 ```
