@@ -685,10 +685,10 @@ Publish the website in the given URL.
 </html>
 ```
 ## OUTPUT:
-![Alt text](image.png)
-![Alt text](image-1.png)
-![Alt text](image-2.png)
-![Alt text](image-3.png)
-![Alt text](image-4.png)
+![image](https://github.com/Kirthi-Niharika/softweb/assets/114135005/0ee5b798-e203-496c-9bb9-2152c94b7872)
+![image](https://github.com/Kirthi-Niharika/softweb/assets/114135005/bf3f592e-a02d-4a8d-b6a6-de523411f9e3)
+![image](https://github.com/Kirthi-Niharika/softweb/assets/114135005/d6399d20-ca6a-41fa-9fcc-26130feb128c)
+![image](https://github.com/Kirthi-Niharika/softweb/assets/114135005/59c996d7-7aed-4c33-b150-039c705d4117)
+![image](https://github.com/Kirthi-Niharika/softweb/assets/114135005/27c7e243-a546-4490-b0b0-8979412d1fe2)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
