@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>II TECHI</title>
+    <style>
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .logo img{
+            height: 100px;
+            width: 100px;
+        }
+        header {
+        overflow: hidden;
+        background-color: rgb(177, 177, 177);
+        padding: 20px 10px;
+        }
+
+        header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px; 
+        line-height: 25px;
+        border-radius: 4px;
+        }
+
+        header a.logo {
+        font-size: 25px;
+        font-weight: bold;
+        }
+
+        header a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+        header a.active {
+            background-color: rgb(8, 47, 87);
+        color: white;
+        }
+
+        .header-right {
+        float: right;
+        padding-top: 30px;
+        }
+
+        .cname{
+            padding-top: 20px;
+        }
+
+        @media screen and (max-width: 500px) {
+            header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+
+        #content{
+            background-color: white;
+            overflow: hidden;
+            line-height:normal;
+        }
+        
+        .contact-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .contact-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .contact-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .contact-details {
+            flex: 1;
+            padding: 50px;
+            font-size: 25px;
+        }
+
+        .title{
+            text-align: center;
+            font-size: 30px;
+            color:rgb(6, 0, 128);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a class="logo"><img src="iitechi.png" alt="logo" border="2"></a>
+        <a class ="cname"><h1>IITECHI</h1></a>
+        <div class="header-right">
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="people.html">People</a>
+            <a class="active" href="contact.html">Contact</a>
+          </div>
+    </header>
+
+    <section id="content">
+        <div class="title">
+            <h3>CONTACT US</h3>
+        </div>
+        <div class="contact-container">
+            
+            <div class="contact-image">
+                <img src="company.png">
+            </div>
+            <div class="contact-details">
+                <p><strong>Email:</strong> iitechi326@gmail.com</p>
+                <p><strong>Phone:</strong> +144 4353 9233</p>
+                <p><strong>Address:</strong> 19, ABC Street, Porur, Chennai</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
